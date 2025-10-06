@@ -9,6 +9,9 @@ export default defineConfig({
   ],
   envPrefix: ['VITE_'],
   envSuffix: '',
+  build: {
+    outDir: 'dist'
+  },
   server: {
     port: 5174
   }
