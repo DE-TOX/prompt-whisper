@@ -236,6 +236,7 @@ The API allows requests from:
 
 - http://localhost:5173 (Vite dev server)
 - http://localhost:3000 (React dev server)
+- https://prompt-whisper.onrender.com (Deployed frontend)
 
 To add more origins, update `CORS_ORIGINS` in `.env`.
 

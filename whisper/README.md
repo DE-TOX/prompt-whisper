@@ -60,7 +60,7 @@
    npm install
    ```
 
-3. **Configure environment** (Optional)
+3. **Configure environment**
    ```bash
    # Create .env file in root directory
    echo "VITE_API_URL=http://localhost:8000" > .env
@@ -239,17 +239,14 @@ vercel
 
 ### Base URL
 ```
-http://localhost:8000/api/v1
+https://prompt-whisper.onrender.com
 ```
 
 ### Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/analyze` | Analyze and enhance a prompt |
-| `GET` | `/history` | Get prompt analysis history |
-| `GET` | `/{id}` | Get specific analysis by ID |
-| `DELETE` | `/{id}` | Delete an analysis |
+| `POST` | `/prompt` | Analyze and enhance a prompt |
 
 **Full API Documentation:** http://localhost:8000/docs (when backend is running)
 
